@@ -1,0 +1,9 @@
+{
+    "1": {
+        "PK_Monster_ID" : 1,
+        "Nom" : "Test",
+        "FK_Rarete_ID" : 1,
+        "FK_Oeuf_ID" : 1,
+        "Apparence" : "A faire"
+    }
+}

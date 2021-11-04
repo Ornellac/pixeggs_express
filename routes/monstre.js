@@ -37,7 +37,7 @@ const monstreRoutes = (app) =>{
         
     );
 
-    //* Pour affichez les infos des monstre :
+    //* Pour affichez les infos du monstre par utilisateur :
     app.get(`${prefix}:id`,
         (req, res)=>{
             let id = parseInt(req.params.id);

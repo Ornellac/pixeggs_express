@@ -1,7 +1,7 @@
 const monstreRoutes = require('./monstre');
 const statRoutes = require('./stat');
 const utilisateurRoutes = require('./utilisateur');
-
+//* Ici je récupere toutes les routes
 const appRoutes = (app)=>{
     app.get('/',
         (req, res) => {

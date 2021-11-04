@@ -50,6 +50,7 @@ const utilisateurRoutes = (app) =>{
         
     );
 
+    //* Ici pour l'authentification, on effectue une verification de l'utilisateur pour voir s'il existe bien dans la base de donnée via le formulaire de connection, d'ou le "post".
     app.post(`${prefix}check`,
         (req, res)=>{
             let input = req.body;

@@ -1,4 +1,4 @@
-//* Ici je créez le lanceur du serveur 
+//* Ici le serveur 
 
 const express = require('express');
 const bodyParser = require('body-parser');
